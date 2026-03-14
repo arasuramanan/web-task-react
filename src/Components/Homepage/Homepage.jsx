@@ -1,4 +1,4 @@
-// import heroVideo from "../../../public/luxury.mp4";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import img1 from "../../assets/Grand-Vista-Mob.jpg";
@@ -19,16 +19,9 @@ const Homepage = () => {
 
       {/* Video Section */}
       <div className="pt-20 w-full bg-white flex justify-center">
-        <video 
-          src="/luxury.mp4" 
-          type="video/mp4"
-          autoPlay 
-          loop
-          muted 
-          playsInline
-          controls={false}
-          className="w-full max-w-[1500px] object-contain"
-        />
+        <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+  <source src="/luxury.mp4" type="video/mp4" />
+</video>
       </div>
       
       {/* Swiper Section */}
