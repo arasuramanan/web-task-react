@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Please wait for the app to load the video in Homepage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
