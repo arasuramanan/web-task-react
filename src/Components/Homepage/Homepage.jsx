@@ -1,4 +1,4 @@
-import heroVideo from "../../assets/Luxury.mp4";
+// import heroVideo from "../../../public/luxury.mp4";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import img1 from "../../assets/Grand-Vista-Mob.jpg";
@@ -20,7 +20,8 @@ const Homepage = () => {
       {/* Video Section */}
       <div className="pt-20 w-full bg-white flex justify-center">
         <video 
-          src={heroVideo}
+          src="/luxury.mp4" 
+          type="video/mp4"
           autoPlay 
           loop
           muted 
