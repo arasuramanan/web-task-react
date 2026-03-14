@@ -21,7 +21,7 @@ const Navbar = () => {
 
             {/* Residential Property Dropdown */}
             <div className="relative group">
-              <a href="/" className="hover:text-[#e1bd53] transition duration-300">Residential Property</a>
+              <a href="/golden" className="hover:text-[#e1bd53] transition duration-300">Residential Property</a>
               <div className="absolute left-0 top-full w-52 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200">
                 <a href="/golden" className="block px-4 py-2 hover:text-[#e1bd53]">Golden Grove</a>
                 <a href="/golden" className="block px-4 py-2 hover:text-[#e1bd53]">Grand Vista</a>
@@ -62,12 +62,12 @@ const Navbar = () => {
       {menuOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/">Home</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/">Residential Property</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/">Commercial Property</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/nri">NRI</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/about">About us</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/contact">Contact us</a>
-          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/career">Career</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">Residential Property</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">Commercial Property</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">NRI</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">About us</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">Contact us</a>
+          <a className="block px-6 py-3 hover:text-[#e1bd53]" href="/golden">Career</a>
         </div>
       )}
     </nav>

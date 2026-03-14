@@ -150,12 +150,12 @@ const Homepage = () => {
         <h2 className="text-xl font-semibold mb-6 font-[Montserrat]">Quick Links</h2>
         <ul className="space-y-3">
           <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Home</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Residential Property</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Commercial Property</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">NRI</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">About Us</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Contact Us</a></li>
-          <li><a href="/" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Career</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Residential Property</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Commercial Property</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">NRI</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">About Us</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Contact Us</a></li>
+          <li><a href="/golden" className="text-gray-300 hover:text-[#e1bd53] transition-colors">Career</a></li>
         </ul>
       </div>
 
@@ -201,9 +201,9 @@ const Homepage = () => {
     <div className="border-t border-white mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-white-400 text-sm">
       <p>© 2026 PRESSANA INFRA. All rights reserved.</p>
       <div className="flex space-x-6 mt-4 md:mt-0">
-        <a href="/" className="hover:text-[#e1bd53] transition-colors">Privacy Policy</a>
-        <a href="/" className="hover:text-[#e1bd53] transition-colors">Terms of Service</a>
-        <a href="/" className="hover:text-[#e1bd53] transition-colors">Sitemap</a>
+        <a href="/golden" className="hover:text-[#e1bd53] transition-colors">Privacy Policy</a>
+        <a href="/golden" className="hover:text-[#e1bd53] transition-colors">Terms of Service</a>
+        <a href="/golden" className="hover:text-[#e1bd53] transition-colors">Sitemap</a>
       </div>
     </div>
   </div>
